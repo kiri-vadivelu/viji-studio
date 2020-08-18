@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2015/Atom">
+  <channel>
+    <atom:link href="https://vijistudio.com/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Viji Studio Photography Services</title>
+    <link>https://vijistudio.com</link>
+    <description>Digital Photography Studio in the heart of Toronto.</description>
+    <item>
+      <guid>https://vijistudio.com</guid>
+      <title>Viji Studio Photography Services</title>
+      <link>https://vijistudio.com</link>
+      <description />
+      <pubDate>Fri, 14 Aug 2020 11:01:01 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://vijistudio.com/photography.html</guid>
+      <title>Viji Studio: Photography Portfolio</title>
+      <link>https://vijistudio.com/photography.html</link>
+      <description />
+      <pubDate>Fri, 14 Aug 2020 11:01:01 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://vijistudio.com/studio.html</guid>
+      <title>Viji Studio: Operating Locations</title>
+      <link>https://vijistudio.com/studio.html</link>
+      <description />
+      <pubDate>Fri, 14 Aug 2020 11:01:01 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://vijistudio.com/service.html</guid>
+      <title>Viji Studio: Digital Photography Service</title>
+      <link>https://vijistudio.com/service.html</link>
+      <description />
+      <pubDate>Fri, 14 Aug 2020 11:01:01 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://vijistudio.com/contact.html</guid>
+      <title>Viji Studio: Contact</title>
+      <link>https://vijistudio.com/contact.html</link>
+      <description />
+      <pubDate>Fri, 14 Aug 2020 11:01:01 Z</pubDate>
+    </item>
+    
+  </channel>
+</rss>
