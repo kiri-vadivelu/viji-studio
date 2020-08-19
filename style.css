@@ -393,7 +393,4 @@ input[type="email"]:valid {
   header, footer, nav, svg, form {
     display: none;
   }
-  .gallery {
-    max-width: 100%;
-  }
 }
