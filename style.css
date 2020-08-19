@@ -359,6 +359,14 @@ input[type="email"]:valid {
   .studio p {
     padding-bottom: 2rem;
   }
+
+  .fa-street-view,
+  .fa-address,
+  .fa-camera,
+  .fa-person-booth,
+  .fa-handshake {
+  max-width: 200px;
+}
 }
 
 @media all and (orientation: landscape) and (max-height: 600px){
