@@ -19,7 +19,8 @@
   body {
     background: var(--primary);
     color: var(--secondary);
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin: auto;
     width: 100%;
     height: 100vh;
@@ -38,14 +39,18 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+  header,
+  footer,
+  body {
+    box-sizing: border-box;
+  }
   header {
     top: 0;
     position: fixed;
     border-bottom: solid 2px var(--light);
   }
   footer {
-    bottom: 0; 
-    position: sticky;
+    bottom: 0;
     border-top: solid 2px var(--light);
   }
   header,
@@ -349,9 +354,6 @@ input[type="email"]:valid {
   h3 {
     font-size: 1.4rem;
   }
-  .home h2 {
-    padding: 5px;
-  }
   .service h1,
   .studio h1 {
     padding-top: 2rem;
@@ -360,7 +362,6 @@ input[type="email"]:valid {
   .studio p {
     padding-bottom: 2rem;
   }
-
   .fa-street-view,
   .fa-address,
   .fa-camera,
