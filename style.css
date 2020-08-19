@@ -11,7 +11,7 @@
     --secondary: white;
     --light: silver;
     --theme: black;
-    --higlight: orange;
+    --highlight: orange;
   }
   
 /* Style */
@@ -98,7 +98,7 @@
   } 
   a:hover {
     opacity: 1.0;
-    border-bottom: solid 2px var(--higlight);
+    border-bottom: solid 2px var(--highlight);
   }
   .current {
     color: var(--secondary);
@@ -273,7 +273,7 @@ textarea.contact-form-text {
 }
 input[type="text"]:valid,
 input[type="email"]:valid {
-  background-color: lightgoldenrodyellow;
+  background-color: var(--highlight);
 }
 .fa-email,
 .fa-instagram,
