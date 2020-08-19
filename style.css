@@ -159,7 +159,7 @@
 }
 .fa-person-booth,
 .fa-handshake {
-  padding: 2rem auto;
+  margin: 2rem auto;
 }
 .fa-camera {
   border-bottom: 20px solid var(--light);
