@@ -369,6 +369,9 @@ input[type="email"]:valid {
   .fa-handshake {
   max-width: 225px;
 }
+  .gallery {
+    max-width: 100%;
+  }
 }
 
 @media all and (orientation: landscape) and (max-height: 600px){
@@ -389,5 +392,8 @@ input[type="email"]:valid {
   }
   header, footer, nav, svg, form {
     display: none;
+  }
+  .gallery {
+    max-width: 100%;
   }
 }
