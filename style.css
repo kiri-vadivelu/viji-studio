@@ -45,6 +45,7 @@
   }
   footer {
     bottom: 0; 
+    position: sticky;
     border-top: solid 2px var(--light);
   }
   header,
