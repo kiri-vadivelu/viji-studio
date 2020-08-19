@@ -373,6 +373,11 @@ input[type="email"]:valid {
     max-width: 100%;
   }
 }
+@media all and (orientation: landscape) and (max-height: 750px) {
+footer {
+  display: none;
+}
+}
 
 @media print {
   body {
