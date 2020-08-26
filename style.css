@@ -192,9 +192,26 @@ svg:hover {
   max-width: 980px;
 }
 .card {
-  width: 195px;
-  padding: 5px;
+  width: 200px;
+  padding: 1rem .5rem;
   display: inline-block;
+}
+.fa-square,
+.fa-image,
+.fa-portrait {
+  opacity: .5;
+  display: block;
+  margin: 1rem auto;
+}
+.fa-square {
+  max-width: 75px;
+}
+.fa-image,
+.fa-portrait {
+  max-width: 100px;
+}
+.service h2 {
+  padding-top: 2rem;
 }
 .card-big {
   width: 1200px;
@@ -333,7 +350,7 @@ input[type="email"]:valid {
 }
     
 /* Media Queries */
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 600px) {
   #main,
   header,
   footer,
@@ -378,7 +395,7 @@ input[type="email"]:valid {
     max-width: 100%;
   }
 }
-@media all and (orientation: landscape) and (max-height: 750px) {
+@media all and (orientation: landscape) and (max-height: 600px) {
 footer {
   display: none;
 }
