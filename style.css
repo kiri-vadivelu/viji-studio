@@ -180,6 +180,10 @@ svg:hover {
   color: var(--theme);
   opacity: .5;
 }
+.studio h1,
+.service h1 {
+  padding: 1rem;
+}
 .service,
 .studio {
   display: flex;
