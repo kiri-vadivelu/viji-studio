@@ -202,10 +202,13 @@ svg:hover {
 }
 .fa-square,
 .fa-image,
-.fa-portrait {
+.fa-portrait,
+.fa-book,
+.fa-book-open,
+.fa-book-reader {
   opacity: .5;
   display: block;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 .fa-square {
   max-width: 75px;
@@ -213,6 +216,17 @@ svg:hover {
 .fa-image,
 .fa-portrait {
   max-width: 100px;
+}
+.fa-book {
+  max-width: 50px;
+  margin: 2.5rem auto;
+}
+.fa-book-open {
+  max-width: 75px;
+}
+.fa-book-reader {
+  max-width: 90px;
+  margin: 1rem auto;
 }
 .service h2 {
   padding-top: 2rem;
