@@ -134,15 +134,23 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  img[src$='.jpg'],
+  img[src$='.png'] {
+    opacity: .9;
+    border-radius: 2px;
+    border: solid 2px var(--light);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
 
   img[src$='.png'] {
-    opacity:0.9;
     margin: auto;
     display: block;
-    max-width: 100%;
-    border: solid 2px var(--light);
-    
+    max-width: 100%;   
   }
+  img[src$=".jpg"]:hover,
   img[src$=".png"]:hover { 
     opacity:1; }
    
