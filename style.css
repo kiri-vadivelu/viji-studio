@@ -113,15 +113,20 @@
     padding: 0;
   }
   article {
-    max-width: 1200px;
+    max-width: 1100px;
   }
   section {
-    width: 600px;
+    width: 275px;
   }
   article,
   section {
     padding: 10px;
     margin: auto;
+  }
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
    
 /* Navigation */  
@@ -158,17 +163,24 @@
 .fa-address,
 .fa-camera,
 .fa-person-booth,
-.fa-handshake {
+.fa-handshake,
+.fa-tape,
+.fa-laptop-code {
   display: block;
   margin: auto;
   color: var(--light);
   max-width: 300px;
 }
+.fa-laptop-code {
+  padding: 2rem;
+}
 .fa-person-booth,
 .fa-handshake {
   margin: 2rem auto;
 }
-.fa-camera {
+.fa-camera,
+.fa-laptop-code,
+.fa-tape {
   border-bottom: 20px solid var(--light);
 }
 .fa-map-marker {
@@ -180,8 +192,7 @@ svg:hover {
   opacity: .5;
 }
 
-.service,
-.studio {
+.service {
   display: flex;
   flex-wrap: wrap;
   max-width: 980px;
