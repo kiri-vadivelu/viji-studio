@@ -414,7 +414,7 @@ input[type="email"]:valid {
 }
 @media all and (orientation: landscape) and (max-height: 600px) {
 #main {
-  padding-bottom: 150px; 
+  padding: 100px 0; 
 }
 }
 
