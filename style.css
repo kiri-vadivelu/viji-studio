@@ -428,7 +428,8 @@ input[type="email"]:valid {
   #main {
     padding: 25px 0;
   }
-  footer {
+  footer,
+  .fa-person-booth {
   display: none;
   }
   .gallery {
