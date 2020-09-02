@@ -189,28 +189,27 @@
 .fa-camera,
 .fa-person-booth,
 .fa-handshake,
-.fa-tape,
-.fa-laptop-code {
+.fa-tape {
   display: block;
   margin: auto;
   color: var(--light);
-  max-width: 400px;
+  max-width: 450px;
 }
-.fa-laptop-code {
+/* .fa-handshake {
   padding: 2rem 0;
-}
-.fa-person-booth,
+} */
+/* .fa-person-booth,
 .fa-handshake {
   margin: 2rem auto;
-}
+} */
 .fa-camera,
-.fa-laptop-code,
+.fa-handshake,
 .fa-tape {
   border-bottom: 20px solid var(--light);
 }
 .fa-map-marker {
   color: var(--light);
-  max-width: 75px;
+  max-width: 50px;
 }
 svg:hover {
   color: var(--theme);
@@ -414,10 +413,6 @@ input[type="email"]:valid {
   }
   h3 {
     font-size: 1.4rem;
-  }
-  .service h1,
-  .studio h1 {
-    padding-top: 2rem;
   }
   .service p,
   .studio p {
