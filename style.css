@@ -317,6 +317,10 @@ input[type="email"]:valid {
   text-align: center;
 }
 
+.contact .last {
+  padding-top: 2rem;
+}
+
 /* Gallery Display */
 .gallery {
   display: grid;
