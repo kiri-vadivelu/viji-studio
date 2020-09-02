@@ -190,12 +190,16 @@ svg:hover {
   justify-content: space-around;
 }
 .contact {
-  max-width: 980px;
+  max-width: 900px;
 }
 .card {
   width: 200px;
   padding: 1rem .5rem;
   display: inline-block;
+}
+
+.card p {
+  padding: 0;
 }
 .fa-square,
 .fa-image,
@@ -228,12 +232,7 @@ svg:hover {
 .service h2 {
   padding-top: 2rem;
 }
-.card-big {
-  width: 1200px;
-}
-.card ul {
-  text-align: center;
-}
+
 .terms h3,
 .privacy h3,
 .cookies h3,
@@ -309,26 +308,13 @@ input[type="text"]:valid,
 input[type="email"]:valid {
   background-color: var(--highlight);
 }
-.fa-email,
-.fa-instagram,
-.fa-facebook,
-.fa-linkedin,
-.fa-flickr {
-  width: 40px;
-  color: var(--light);
-}
+
 .contact h3 {
   padding: 2.5rem 0 .5rem;
 }
-.contact ul {
+
+.contact {
   text-align: center;
-  padding: .5rem;
-}
-.contact li {
-  padding: 5px;
-  display: inline;
-  line-height: 3rem;
-  list-style: none;
 }
 
 /* Gallery Display */
