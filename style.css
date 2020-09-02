@@ -41,6 +41,8 @@
   }
   header,
   footer,
+  article,
+  section,
   body {
     box-sizing: border-box;
   }
@@ -114,20 +116,35 @@
   }
   article {
     max-width: 1100px;
+    padding: 10px;
   }
   section {
     width: 275px;
-  }
-  article,
-  section {
     padding: 10px;
-    margin: auto;
+  }
+  section ul {
+    text-align: center;
+    padding: 10px;
+  }
+  section h3 {
+    border: none;
   }
   .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
+  img[src$='.png'] {
+    opacity:0.9;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    border: solid 2px var(--light);
+    
+  }
+  img[src$=".png"]:hover { 
+    opacity:1; }
    
 /* Navigation */  
   nav ul {
@@ -169,10 +186,10 @@
   display: block;
   margin: auto;
   color: var(--light);
-  max-width: 300px;
+  max-width: 400px;
 }
 .fa-laptop-code {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 .fa-person-booth,
 .fa-handshake {
