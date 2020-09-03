@@ -218,13 +218,7 @@ svg:hover {
   color: var(--theme);
   opacity: .5;
 }
-/* .service {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 980px;
-  overflow: hidden;
-  justify-content: space-around;
-} */
+
 .contact {
   max-width: 900px;
 }
