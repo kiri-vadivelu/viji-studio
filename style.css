@@ -131,7 +131,16 @@
   .box {
     display: flex;
     flex-wrap: wrap;
+    max-width: 980px;
     justify-content: space-around;
+  }
+  .card {
+    width: 200px;
+    padding: 1rem .5rem;
+    display: inline-block;
+  }
+  .card p {
+    padding: 0;
   }
   img[src$='.jpg'],
   img[src$='.png'] {
@@ -209,24 +218,17 @@ svg:hover {
   color: var(--theme);
   opacity: .5;
 }
-.service {
+/* .service {
   display: flex;
   flex-wrap: wrap;
   max-width: 980px;
   overflow: hidden;
   justify-content: space-around;
-}
+} */
 .contact {
   max-width: 900px;
 }
-.card {
-  width: 200px;
-  padding: 1rem .5rem;
-  display: inline-block;
-}
-.card p {
-  padding: 0;
-}
+
 .fa-square,
 .fa-image,
 .fa-portrait,
