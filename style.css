@@ -12,8 +12,7 @@
     --light: silver;
     --theme: black;
     --highlight: orange;
-  }
-  
+  }  
 /* Style */
   html,
   body {
@@ -144,7 +143,6 @@
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
-
   img[src$='.png'] {
     margin: auto;
     display: block;
@@ -211,7 +209,6 @@ svg:hover {
   color: var(--theme);
   opacity: .5;
 }
-
 .service {
   display: flex;
   flex-wrap: wrap;
@@ -227,7 +224,6 @@ svg:hover {
   padding: 1rem .5rem;
   display: inline-block;
 }
-
 .card p {
   padding: 0;
 }
@@ -262,7 +258,6 @@ svg:hover {
 .service h2 {
   padding-top: 2rem;
 }
-
 .terms h3,
 .privacy h3,
 .cookies h3,
@@ -338,15 +333,12 @@ input[type="text"]:valid,
 input[type="email"]:valid {
   background-color: var(--highlight);
 }
-
 .contact h3 {
   padding: 2.5rem 0 .5rem;
 }
-
 .contact {
   text-align: center;
 }
-
 .contact .last {
   padding-top: 2rem;
 }
