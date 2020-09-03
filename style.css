@@ -339,7 +339,7 @@ input[type="email"]:valid {
 .contact {
   text-align: center;
 }
-.contact .last {
+.contact h2 {
   padding-top: 2rem;
 }
 
