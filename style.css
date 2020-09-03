@@ -33,7 +33,7 @@
   #main {
     max-width: 1100px;
     min-height: 100vh;
-    padding: 50px 0;
+    padding: 25px 0 50px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +71,7 @@
   h2,
   h3 {
     text-align: center;
-    padding: 1rem 0 .5rem;
+    padding-top: 1rem;
     margin: 0;
   } 
   p {
@@ -194,6 +194,9 @@
   margin: auto;
   color: var(--light);
   max-width: 450px;
+}
+.fa-street-view {
+  padding-top: 2rem;
 }
 .fa-camera,
 .fa-handshake,
